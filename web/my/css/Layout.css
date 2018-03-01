@@ -1,0 +1,20 @@
+.skill .wrapper ol{
+	width: 100px;
+	margin: 0 45%;
+	position: absolute;
+	bottom: 0;
+}
+.skill .wrapper ol li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 1px solid aqua;
+	background: white;
+	display: block;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.skill .wrapper ol .hover{
+	background-color: aqua;
+}
+

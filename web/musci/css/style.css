@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	word-wrap:break-word ;
+	word-break: break-word;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div{
+	display: block;
+}
+em{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+/*a:hover{
+	color: #333;
+}*/
+i{
+	font-style: normal;
+	font-size: inherit;
+}
+ul{
+	list-style-type: disc;
+}
+li{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+}
+.topbar{
+	z-index: 1;
+	height: 105px;
+	width: 100%;
+
+}
+.cc{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+}
+.f-fs1{
+	font-size:14px;
+}
+.f-ib{
+	display: inline-block;
+}
+	.topbar .top{
+		position: relative;
+		height: 70px;
+		background-position: 0 -80px;
+		background-repeat: repeat-x;
+		z-index: 100;
+	}
+	.topbar .bar{
+		margin: 0 0 0 171px;
+	}
+	.topbar .top .ss{
+		float: right;
+		position: relative;
+		height: 31px;
+		width: 210px;
+		margin: 21px 0 0 0;
+		background-position: 0 -550px;
+	}
+	.bar .peng{
+		width: 12px;
+		height: 12px;
+		background: url(../img/su/dot2.png)no-repeat;
+	}
+	.topbar .nav{
+		position: relative;
+		height: 35px;
+		background-position: 0 -230px;
+		background-repeat: repeat-x;
+	}
+	.bar li,.bar li span,.bar li span a{
+		height: 70px;
+		font-size: 14px;
+		float: left;
+		overflow:hidden;
+	}
+	.nav ul li,.nav ul li a,.nav ul li  em{
+		height: 35px;
+		font-size: 12px;
+		float: left;
+		overflow: hidden;
+	}
+	.dian {
+		position: absolute;
+		height: 20px;
+		width: 730px;
+		text-align: center;
+		top: 310px;
+	}
+	.war{
+	position: relative;
+	width: 984px;
+	height: 336px;
+	margin: 0 auto;
+	}
+	.war .gg{
+		width: 730px;
+		float: left;
+	}
+	.warp {
+		width: 980px;
+		border: 1px solid #d3d3d3;
+		height: 1815px;
+		margin:0 auto;
+		border-width: 0 1px;
+		min-height:700px;
+		background: url(../img/su/wrap1.png) repeat-y 100% 100%;
+	}
+	.warps{
+		width: 730px;
+		margin: 20px 0 0 20px;
+		float: left;
+		margin-right: -250px
+	}
+	.warpl{
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+	.coml{
+		float: left;
+		width: 690px;
+	}
+	.tup{
+		
+		margin: 20px 0 0 -45px;
+	}
+	.tup li{
+		width: 140px;
+		height: 204px;
+		float: left;
+		padding-left: 24px;
+		padding: 0 0 30px 40px;
+		line-height:1.4;
+		display: inline-block;
+	}
+	.tupt{
+		width: 140px;
+		height: 140px;
+		position: relative;
+		display: block;
+	}
+	.dec a:hover{
+		text-decoration: underline;
+	}
+	.neigg{
+		float: left;
+		height: 75px;
+		width: 689px;
+		position: relative;
+		margin: 0 0 35px;
+		padding-top: 25px;
+	}
+	.newdie{
+		position: relative;
+		margin: 20px 0 37px 0;
+		border: 1px solid #d3d3d3;
+		height: 186px;
+	}
+	.inn{
+		width: 645px;
+		height: 180px;
+		padding-left: 16px;
+		background: #f5f5f5;
+		border: 1px solid #fff;
+	}
+	.die{
+		overflow:hidden;
+		position: relative;
+		margin: 28px 0 0 0;
+	}
+	.dandie{
+		height: 100px;
+		width: 100px;
+		margin-bottom:7px;
+		position: relative;
+		display: block;
+	}
+	.bang{
+		height: 472px;
+		margin-top: 20px;
+		padding-left: 2px;
+	}
+	.dan{
+		width: 229px;
+		float: left;
+	}
+	.more{
+		clear: both;
+		height: 32px;
+		line-height: 32px;
+		margin-right: 32px;
+		text-align: right;
+	}
+	.myinfo{
+		height: 165px;
+		margin-top: 20px;
+	}
+	.infot{
+		float: left;
+		width: 80px;
+		height: 80px;
+		margin-left: 20px;
+		padding: 2px;
+		border: 1px solid #dadada;
+		background:#fff;
+	}
+	.infot img{
+		display: block;
+		width: 80px;
+		height: 80px;
+	}
+	.infob{
+		width: 115px;
+		float: left;
+		margin-left: 15px;
+		padding-top: 3px;
+	}
+	.ge:after{
+		clear: both;
+		visibility: hidden;
+		display: block;
+		content: '.';
+	}
+	.ruzhu{
+		margin-top: 15px;
+	}
+	.dj{
+		margin-top: 30px;
+	}
+	.djb{
+		margin: 20px 0 0 20px;
+	}
+	.dj:after{
+		clear: both;
+		visibility: hidden;
+		display: block;
+		content: '.';
+		height: 0;
+	}
+	.g-ft{
+		position: relative;
+		height: 140px;
+		overflow: hidden;
+		border-top: 1px solid #d3d3d3;
+		background: #f2f2f2;
+	}
+	.m-ft{
+		width: 980px;
+		margin: 0 auto;
+	}
+	.copy{
+		float:left;
+		width: 490px;
+		padding-top: 35px;
+	}
+	.enter{
+		width: 330px;
+		margin-top: 21px;
+		float: right;
+	}
+.top,.nav,.logo,.logo a,.ss,.bar li,.bar cor ,.bar em,.mailss,.nav a,.nav em{
+		background: url(../img/su/topbar.png)no-repeat 0 9999px;
+}
+.dian a{
+	background: url(../img/su/banner.png)no-repeat 0 9999px;
+}
+.dowload,.dowload a {
+	background: url(../img/su/download.png)no-repeat 0 9999px;
+}
+.geng i{
+	background: url(../img/su/index.png) no-repeat 0 9999px;
+}
+.tupt a,.tupb,.msk{
+	background: url(../img/su/coverall.png)no-repeat;
+}
+.tupb a,.tupb .icon,.bof{
+	background: url(../img/su/iconall.png)no-repeat;
+}
+.comls,.innleft,.innright,.die li,.btnbf,.btnsc,.oper11,.oper13{
+	background: url(../img/su/index.png)no-repeat 0 9999px;
+}
+.date,.mask{
+	background: url(../img/su/date.png)no-repeat 0 9999px;
+}
+.idv a,.myinfo{
+	background: url(../img/su/index.png)no-repeat 0 9999px;
+}
+.bang{
+	background: url(../img/su/index_bill.png)no-repeat;
+}
+.oper12,.icn{
+	background: url(../img/su/icon.png)no-repeat 0 9999px;
+	margin: 2px 6px 0 0;
+}
+.infode,.infodei{
+	background: url(../img/su/icon2.png)no-repeat 0 9999px;
+}
+.indeqd,.qian,.infoqd i,.btn2,.btn2 i{
+	background: url(../img/su/button2.png)no-repeat 0 9999px;
+}
+.logo-music,.logo-midea,.logo-topic,.logo-reward{
+	background: url(../img/su/foot_enter.png)no-repeat 0 9999px;
+}

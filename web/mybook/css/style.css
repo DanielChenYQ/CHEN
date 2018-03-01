@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #f8981d;
+}
+p{
+	text-align: justify;
+	line-height: 19px;
+	padding: 5px 0 5px 0;
+}
+img{
+		border: none;
+		}
+ul{
+	list-style: none;
+}
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+div{
+	display: block;
+}
+body{
+	display: block;
+	background: #6F605A;
+	font-size: 14px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrap{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	background: beige;
+}
+ .header{
+	height: 181px;
+	width: 900px;
+	background:url(../images/header.jpg) no-repeat center;
+}
+.header .logo {
+	padding: 50px 0 0 130px;
+}
+.menu{
+	padding: 64px 0 0 10px;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	padding: 0px 10px 0 10px;
+	margin: 0 4px 0 4px;
+	color: beige;
+}
+.menu ul li.home a{
+	color: #f8981d;
+}
+.main{
+	width: 900px;
+	background: url(../images/center_bg.gif) repeat-y center;
+}
+.miaoleft{
+	width: 490px;
+	float: left;
+	padding: 20px 0 20px 20px;
+}
+.title{
+	color: #734633;
+	font-size: 19px;
+	float: left;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.bookbox{
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px #b2b2b2 dashed;
+	margin: 0 20px 20px 0;	
+	clear: both;
+}
+.boximg{
+	float: left;
+	padding: 0 5px 0 0;
+	text-align: center;
+}
+.boxtext{
+	float: left;
+	width: 295px;
+	padding: 0 0 0 25px;
+}
+.texttop{
+	width: 295px;
+	height: 9px;
+	background: url(../images/box_top.gif)no-repeat center bottom;
+}
+.textcenter{
+	width: 295px;
+	background: url(../images/box_center.gif) repeat-y center;
+	height: auto;
+}
+.textcenter h3{
+	padding: 5px 0 0 15px;
+	color: #f8981d;
+	font-size: 13px;
+}
+.textcenter p{
+	padding: 5px 15px 5px 15px;
+	font-size: 11px;
+}
+a.more{
+	font-style: initial;
+	padding: 0px 15px 0 0;
+	float: right;
+}
+.textbottom{
+	width: 295px;
+	height: 9px;
+	background: url(../images/box_bottom.gif)no-repeat center top;
+}
+
+.new_products{
+	clear: both;
+}
+.newbox{
+	padding: 10px;
+	float: left;
+	text-align: center;
+}
+	.newbox a{
+		padding: 5px 0 5px 0;
+		color: #b5b5b6;
+		display: block;
+	}
+	.newbox_bg{
+		width: 132px;
+		height: 119px;
+		background: url(../images/new_prod_box.gif) no-repeat center;
+		text-align: center;
+	}
+	.new_icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 100;
+	}
+img.thumb{
+	padding: 10px 0 0 0;
+	border: none;
+}
+.miaoright{
+	padding: 20px 0 20px 20px;
+	width: 370px;
+	float: left;
+}
+.languages{
+	padding: 0 0 5px 0;
+	float: left;
+}
+	.red{
+		color: #990000;
+		font-size: 14px;
+	}
+	.languages a{
+		padding: 0 2px 0 2px;
+	}
+	.languages a.selected{
+		padding: 2px 0 0 2px;
+		border: 1px #CCCCCC solid;
+	}
+	.currency{
+		float: left;
+		padding: 0 0 0 15px;
+	}
+	.currency a{
+		color: #333333;
+		border: 1px #eeedee solid;
+		padding: 3px;
+	}
+	.currency a.selected{
+		background-color: #FF9900;
+		color: #FFF;
+		font-weight: bold;
+	}
+	.cart{
+		width: 337px;
+		height: 40px;
+		float: left;
+		margin: 10px 0 10px 0;
+		padding: 0 0 30px 0;
+		background: url(../images/border.gif) no-repeat bottom center;
+	}
+	.home_cart{
+		border: 1px #eeedee solid;
+		padding: 3px;
+		margin: 10px 0 0 15px;
+		float: left;
+	}
+	.home_cart a.view_cart{
+		border-bottom: 1px #990000 solid;
+		color: #990000;
+		margin: 12px 0 0 10px;
+	}
+	.about{
+		width: 337px;
+		background: url(../images/border.gif) no-repeat bottom center;
+		padding: 0 0 35px 0;
+		clear: both;
+	}
+	img.right{
+		float: right;
+		padding: 0 0 0 10px;
+	}
+.rightbox{
+	width: 170px;
+	float: left;
+	padding: 10px 0 0 0;
+}
+ul.list{
+	clear: both;
+	padding: 10px 0 0 20px;
+}
+ul.list li a{
+	color: #000000;
+	background: url(../images/left_menu_bullet.gif) no-repeat left;
+	padding: 0 0 0 17px;
+}
+.footer{
+	height: 100px;
+	border-top: 1px #b2b2b2 dashed;
+	background: url(../images/footer_bg.gif) no-repeat bottom;
+}
+.footerleft{
+	float: left;
+	padding: 10px 0 0 10px;
+}
+.footerright{
+	float: right;
+	padding: 10px 10px 0 0;
+}
+.footerright a{
+	padding: 0 5px 0 5px;
+	color: #afaeaf;
+}
+.clear{
+	clear: both;
+}
